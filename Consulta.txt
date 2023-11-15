@@ -1,0 +1,32 @@
+GIT
+git init: Crea un nuevo repositorio local Git12.
+
+git clone: Se usa para copiar un repositorio. Si el repositorio está en un servidor remoto, usa: git clone nombredeusuario@host:/path/to/repository. Para copiar un repositorio local: git clone /path/to/repository12.
+
+git commit: Crea una instantánea de los cambios y la guarda en el directorio gitgit commit –m “El mensaje que acompaña al commit va aquí”12.
+
+git config: Puede ser usado para establecer una configuración específica de usuario, como el email, nombre de usuario y tipo de formato, etc. Por ejemplo, el siguiente comando se usa para establecer un email: git config --global user.email tuemail@ejemplo.com12.
+
+git status: Muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados2.
+
+git add: Se usa para agregar archivos al área de preparación. Por ejemplo, el siguiente comando de Git básico indexará el archivo temp.txt: git add <temp.txt>12.
+
+git branch: Las ramas (branch) son altamente importantes en el mundo de Git. Usando ramas, varios desarrolladores pueden trabajar en paralelo en el mismo proyecto simultáneamente. Podemos usar el comando git branch para crearlas, listarlas y eliminarlas2.
+
+git checkout: Este es también uno de los comandos más utilizados en Git. Para trabajar en una rama, primero tienes que cambiarte a ella. Usaremos git checkout principalmente para cambiarte de una rama a otra2.
+
+git merge: Se utiliza para fusionar una rama en otra. Por ejemplo, si estás en la rama ‘main’ y quieres fusionar la rama ‘feature’, usarías: git merge feature.
+
+git pull: Actualiza tu repositorio local al estado más reciente del repositorio remoto. Se usa así: git pull.
+
+git push: Envía tus cambios al repositorio remoto. Por ejemplo, para enviar tus cambios a la rama ‘main’ del repositorio remoto, usarías: git push origin main.
+
+git log: Muestra un historial de todos los commits realizados en el repositorio. Se usa simplemente como: git log.
+
+git revert: Crea un nuevo commit que deshace los cambios realizados en un commit anterior. Por ejemplo, para revertir el commit con el ID ‘abc123’, usarías: git revert abc123.
+
+git stash: Guarda los cambios que no estás listo para hacer commit para más tarde. Esto te permite cambiar de rama sin perder tus cambios. Se usa así: git stash.
+
+git tag: Se utiliza para agregar una etiqueta a un commit específico. Las etiquetas suelen utilizarse para marcar puntos específicos en la historia del proyecto, como una versión de lanzamiento. Por ejemplo, para agregar una etiqueta llamada ‘v1.0’ al commit más reciente, usarías: git tag v1.0.
+
+Este es una lista de todos los ejemplos que puedan a ver de las funciones de git
